@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.signup-container, .login-container{
+    margin: 1rem;
+    display: flex;
+}
+.signup-img, .login-img{
+    max-width: 50%;
+    margin-right: 2rem;
+}
+.signup-form, .login-form{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20%;
+    
+}
+.signup-form input, .login-form input{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none; 
+    border-bottom: 2px solid #706c6c; 
+    outline: none;
+}
+.signup-form button{
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+.create-account-btn,.login-btn{
+    background-color: rgb(223, 33, 33);
+    color: white;
+}
+.create-account-btn:hover{
+    background-color: rgb(212, 28, 28);
+}
+.google-icon{
+    margin-right: 10px;
+  
+}
+.login-btn{
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.login-btn:hover{
+    background-color: rgb(212, 28, 28);
+}

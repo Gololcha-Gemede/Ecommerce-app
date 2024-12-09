@@ -1,0 +1,34 @@
+.abouts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+.our-story{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.our-story p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem ;
+}
+.numbers-list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.people-list{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.service-list{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+}
+li{
+    list-style-type: none;
+    margin: 1rem;
+}
